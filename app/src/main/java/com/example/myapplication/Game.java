@@ -37,36 +37,28 @@ public class Game extends AppCompatActivity {
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button1)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button4)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button7)).getText().toString() == playerName1)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button1)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button9)).getText().toString() == playerName1)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button4)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button6)).getText().toString() == playerName1)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button7)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button3)).getText().toString() == playerName1)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button7)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button8)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button9)).getText().toString() == playerName1)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button2)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button8)).getText().toString() == playerName1)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button3)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button6)).getText().toString() == playerName1) && (((Button) findViewById(R.id.button9)).getText().toString() == playerName1)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName1 + " won", Toast.LENGTH_LONG).show();
                 finish();
             }
             else if(numberOfClicks == 9) {
-                Log.d("display", "som");
                 Toast.makeText(this, "draw", Toast.LENGTH_LONG).show();
                 finish();
             }
@@ -74,35 +66,27 @@ public class Game extends AppCompatActivity {
         }
         else if(!firstPlayerTurn) {
             if ((((Button) findViewById(R.id.button1)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button2)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button3)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button1)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button4)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button7)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button1)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button9)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button4)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button6)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button7)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button3)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button7)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button8)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button9)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button2)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button5)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button8)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             } else if ((((Button) findViewById(R.id.button3)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button6)).getText().toString() == playerName2) && (((Button) findViewById(R.id.button9)).getText().toString() == playerName2)) {
-                Log.d("display", "som");
                 Toast.makeText(this, playerName2 + " won", Toast.LENGTH_LONG).show();
                 finish();
             }
